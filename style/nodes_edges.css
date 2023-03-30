@@ -1,0 +1,375 @@
+.node {
+    display: none;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 13, 0.894);
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    border-radius: 50%;
+
+
+}
+
+#node1 {
+    top: 16vh;
+    left: 118vh;
+}
+
+#node2 {
+    top: 16vh;
+    left: 149vh;
+}
+
+#node3 {
+    top: 32vh;
+    left: 180vh;
+}
+
+#node4 {
+    top: 57vh;
+    left: 180vh;
+}
+
+#node5 {
+    top: 72vh;
+    left: 149vh;
+}
+
+#node6 {
+    top: 72vh;
+    left: 118vh;
+}
+
+#node7 {
+    top: 57vh;
+    left: 88vh;
+}
+
+#node8 {
+    top: 32vh;
+    left: 88vh;
+}
+
+.edge {
+
+    width: 100px;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+    z-index: -1;
+}
+
+.thick-line {
+    display: none;
+    border: 2px solid black;
+    width: 4px;
+
+}
+
+.thick-line::before {
+    content: "";
+    position: absolute;
+    /* height: 100%; */
+    width: 0;
+    background-color: #00f;
+    /* animation: traverseLine 1s ease-in-out forwards; */
+}
+
+@keyframes traverseLine {
+    0% {
+        width: 0;
+        background-color: #00f;
+    }
+
+    50% {
+        width: 50%;
+        background-color: #0f0;
+    }
+
+    100% {
+        width: 100%;
+        background-color: #f00;
+    }
+}
+
+#line12 {
+    height: 26vh;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 6vh;
+    left: 141.5vh;
+    margin-top: -5px;
+    margin-left: -50px;
+}
+
+#line56 {
+    height: 26vh;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 62vh;
+    left: 141.5vh;
+    margin-top: -5px;
+    margin-left: -50px;
+}
+
+#line78 {
+    height: 21vh;
+    transform: rotate(0deg);
+    position: absolute;
+    top: 38vh;
+    left: 96vh;
+    margin-top: -5px;
+    margin-left: -50px;
+}
+
+#line34 {
+    height: 21vh;
+    transform: rotate(0deg);
+    position: absolute;
+    top: 38vh;
+    left: 188vh;
+    margin-top: -5px;
+    margin-left: -50px;
+}
+
+#line45 {
+    height: 31vh;
+    transform: rotate(67deg);
+    position: absolute;
+    top: 53.5vh;
+    left: 173.5vh;
+    margin-top: -5px;
+    margin-left: -50px;
+}
+
+#line18 {
+    height: 31vh;
+    transform: rotate(65.2deg);
+    position: absolute;
+    top: 11vh;
+    left: 109.8vh;
+    margin-top: -5px;
+    margin-left: -50px;
+}
+
+#line23 {
+    height: 32.5vh;
+    transform: rotate(116deg);
+    position: absolute;
+    top: 10vh;
+    left: 174vh;
+    margin-top: -5px;
+    margin-left: -50px;
+}
+
+#line67 {
+    height: 32.5vh;
+    transform: rotate(114.5deg);
+    position: absolute;
+    top: 52.5vh;
+    left: 109vh;
+    margin-top: -5px;
+    margin-left: -50px;
+}
+
+#line16 {
+    height: 54vh;
+    transform: rotate(0deg);
+    position: absolute;
+    top: 20vh;
+    left: 126vh;
+    margin-top: -5px;
+    margin-left: -50px;
+}
+
+#line25 {
+    height: 54vh;
+    transform: rotate(0deg);
+    position: absolute;
+    top: 20vh;
+    left: 157vh;
+    margin-top: -5px;
+    margin-left: -50px;
+}
+
+#line15 {
+    height: 58vh;
+    transform: rotate(153deg);
+    position: absolute;
+    top: 18vh;
+    left: 141.5vh;
+    margin-top: -5px;
+    margin-left: -50px;
+}
+
+#line26 {
+    height: 58vh;
+    transform: rotate(27deg);
+    position: absolute;
+    top: 18vh;
+    left: 141.5vh;
+    margin-top: -5px;
+    margin-left: -50px;
+}
+
+#line24 {
+    height: 47vh;
+    transform: rotate(144deg);
+    position: absolute;
+    top: 17vh;
+    left: 172.5vh;
+    margin-top: -5px;
+    margin-left: -50px;
+}
+
+#line13 {
+    height: 60vh;
+    transform: rotate(105deg);
+    position: absolute;
+    top: -2.7vh;
+    left: 156.5vh;
+    margin-top: -5px;
+    margin-left: -50px;
+}
+
+#line14 {
+    height: 70.5vh;
+    transform: rotate(124deg);
+    position: absolute;
+    top: 4.6vh;
+    left: 156.5vh;
+    margin-top: -5px;
+    margin-left: -50px;
+}
+
+#line17 {
+    height: 46.5vh;
+    transform: rotate(35deg);
+    position: absolute;
+    top: 17vh;
+    left: 110.5vh;
+    margin-top: -5px;
+    margin-left: -50px;
+}
+
+#line27 {
+    height: 68vh;
+    transform: rotate(56deg);
+    position: absolute;
+    top: 5.5vh;
+    left: 126.5vh;
+    margin-top: -5px;
+    margin-left: -50px;
+}
+
+#line28 {
+    height: 59vh;
+    transform: rotate(76deg);
+    position: absolute;
+    top: -2.8vh;
+    left: 126.5vh;
+    margin-top: -5px;
+    margin-left: -50px;
+}
+
+#line38 {
+    height: 87vh;
+    transform: rotate(90deg);
+    position: absolute;
+    top: -8vh;
+    left: 142vh;
+    margin-top: -5px;
+    margin-left: -50px;
+}
+
+#line47 {
+    height: 87vh;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 17vh;
+    left: 142vh;
+    margin-top: -5px;
+    margin-left: -50px;
+}
+
+#line35 {
+    height: 46vh;
+    transform: rotate(37deg);
+    position: absolute;
+    top: 32vh;
+    left: 172.5vh;
+    margin-top: -5px;
+    margin-left: -50px;
+}
+
+#line36 {
+    height: 68vh;
+    transform: rotate(57.5deg);
+    position: absolute;
+    top: 21vh;
+    left: 157vh;
+    margin-top: -5px;
+    margin-left: -50px;
+}
+
+#line37 {
+    height: 90vh;
+    transform: rotate(75deg);
+    position: absolute;
+    top: 3vh;
+    left: 142vh;
+    margin-top: -5px;
+    margin-left: -50px;
+}
+
+#line46 {
+    height: 59vh;
+    transform: rotate(78deg);
+    position: absolute;
+    top: 38.6vh;
+    left: 157vh;
+    margin-top: -5px;
+    margin-left: -50px;
+}
+
+#line48 {
+    height: 91vh;
+    transform: rotate(105deg);
+    position: absolute;
+    top: 3vh;
+    left: 142vh;
+    margin-top: -5px;
+    margin-left: -50px;
+}
+
+#line58 {
+    height: 68vh;
+    transform: rotate(123deg);
+    position: absolute;
+    top: 22vh;
+    left: 126.5vh;
+    margin-top: -5px;
+    margin-left: -50px;
+}
+
+#line57 {
+    height: 58vh;
+    transform: rotate(103.3deg);
+    position: absolute;
+    top: 39vh;
+    left: 126.5vh;
+    margin-top: -5px;
+    margin-left: -50px;
+}
+
+#line68 {
+    height: 47vh;
+    transform: rotate(144deg);
+    position: absolute;
+    top: 31vh;
+    left: 110vh;
+    margin-top: -5px;
+    margin-left: -50px;
+}
