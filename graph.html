@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Sorting Algorithm Visualizer</title>
+    <link rel="stylesheet" href="../style/graph.css" />
+    <link rel="stylesheet" href="../style/nodes_edges.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav>
+        <input type="checkbox" id="show-menu" />
+        <label for="show-menu" class="menu-icon"
+          ><i class="fas fa-bars"></i
+        ></label>
+        <div class="content">
+          <div class="logo"><a href="#">Graph Algorithms</a></div>
+          <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li>
+              <a href="#" class="desktop-link">Algorithms</a>
+              <input type="checkbox" id="show-algorithms" />
+              <label for="show-algorithms">Algorithms</label>
+              <ul id="algo">
+                <li><a href="#">BFS</a></li>
+                <li><a href="#">DFS</a></li>
+                <li><a href="#">Prims Algorithm</a></li>
+                <li><a href="#">Kruskal's Algorithm</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" class="desktop-link">Speed</a>
+              <input type="checkbox" id="show-speed" />
+              <label for="show-speed">Services</label>
+              <ul class="speed">
+                <li><a href="#">Speed-1x</a></li>
+                <li><a href="#">Speed-2x</a></li>
+                <li><a href="#">Speed-3x</a></li>
+                <li><a href="#">Speed-4x</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div id="show">
+      <div id="container">
+        <div id="disp">
+          <p id="algorithm">Algorithm</p>
+          <p id="speed">Speed</p>
+
+          <p id="graph">Graph</p>
+
+          <button id="run">RUN</button>
+        </div>
+
+        <div id="cont">
+
+          <div id="nodes">
+            <div id="node1" class="node">N 1</div>
+            <div id="node2" class="node">N 2</div>
+            <div id="node3" class="node">N 3</div>
+            <div id="node4" class="node">N 4</div>
+            <div id="node5" class="node">N 5</div>
+            <div id="node6" class="node">N 6</div>
+            <div id="node7" class="node">N 7</div>
+            <div id="node8" class="node">N 8</div>
+          </div>
+
+          <div id="edges">
+            <div id="line12" class="thick-line"></div>
+            <div id="line56" class="thick-line"></div>
+            <div id="line78" class="thick-line"></div>
+            <div id="line34" class="thick-line"></div>
+            <div id="line45" class="thick-line"></div>
+            <div id="line18" class="thick-line"></div>
+            <div id="line23" class="thick-line"></div>
+            <div id="line67" class="thick-line"></div>
+            <div id="line16" class="thick-line"></div>
+            <div id="line25" class="thick-line"></div>
+            <div id="line15" class="thick-line"></div>
+            <div id="line26" class="thick-line"></div>
+            <div id="line24" class="thick-line"></div>
+            <div id="line13" class="thick-line"></div>
+            <div id="line14" class="thick-line"></div>
+            <div id="line17" class="thick-line"></div>
+            <div id="line27" class="thick-line"></div>
+            <div id="line28" class="thick-line"></div>
+            <div id="line38" class="thick-line"></div>
+            <div id="line47" class="thick-line"></div>
+            <div id="line35" class="thick-line"></div>
+            <div id="line36" class="thick-line"></div>
+            <div id="line37" class="thick-line"></div>
+            <div id="line46" class="thick-line"></div>
+            <div id="line48" class="thick-line"></div>
+            <div id="line58" class="thick-line"></div>
+            <div id="line57" class="thick-line"></div>
+            <div id="line68" class="thick-line"></div>
+          </div>
+
+        </div>
+      </div>
+
+      <div id="input">
+
+        <h2 class="input" id="h2">Input Nodes:-</h2>
+
+        <input class="input" id="nodes_no" type="text" placeholder="Maximum is 8"/>
+
+        <button class="input" id="insert_nodes">Insert</button>
+
+        <h2 class="input" id="h2">Input Edges:-</h2>
+
+        <input class="input" id="edges_no" type="text" placeholder="Example-> 12,23,14" />
+
+        <button class="input" id="insert_edges">Insert</button>
+
+      </div>
+
+    </div>
+
+    <script src="../js/visualization.js"></script>
+    <script src="../js/graph/graph.js"></script>
+    <script src="../js/graph/bfs.js"></script>
+    <script src="../js/graph/dfs.js"></script>
+
+    <script>
+
+    </script>
+  </body>
+</html>

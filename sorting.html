@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sorting Algorithm Visualizer</title>
+  <link rel="stylesheet" href="../style/sorting.css">
+  
+</head>
+<body>
+  <div class="wrapper">
+    <nav>
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+      <div class="logo"><a href="#">Sorting Algorithms</a></div>
+        <ul class="links">
+          <li><a href="index.html">Home</a></li>
+          <li>
+            <a href="#" class="desktop-link">Algorithms</a>
+            <input type="checkbox" id="show-algorithms">
+            <label for="show-algorithms">Algorithms</label>
+            <ul id="algo">
+              <li><a href="#">Bubble Sort</a></li>
+              <li><a href="#">Insertion Sort</a></li>
+              <li><a href="#">Merge Sort</a></li>
+              <li><a href="#">Quick Sort</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="desktop-link">Speed</a>
+            <input type="checkbox" id="show-speed">
+            <label for="show-speed">Services</label>
+            <ul class="speed">
+              <li><a href="#">Speed-1x</a></li>
+              <li><a href="#">Speed-2x</a></li>
+              <li><a href="#">Speed-3x</a></li>
+              <li><a href="#">Speed-4x</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  </div>
+  
+  <div id="show">
+
+
+      <div id="container"> 
+        <div id="disp">
+          <p id="algorithm">Algorithm</p>
+          <p id="speed">Speed</p>
+          
+          <p id="array">Array</p>
+
+          <button id="run">RUN</button>
+
+
+        </div>
+        <div id="cont">
+
+        </div>
+      </div>
+
+    <div id="input">
+
+      <h2 class="input" id="h2">Input:-</h2>
+
+      <input class="input" id="user_text" type="text">
+
+      <button class="input" id="insert">Insert</button>
+
+    </div>
+
+  </div>
+
+  <script src="../js/sorting/sorting_main.js"></script>
+  <script src="../js/sorting/bubble_sort.js"></script>
+  <script src="../js/sorting/insertion_sort.js"></script>
+  <script src="../js/sorting/merge_sort.js"></script>
+  <script src="../js/sorting/quick_sort.js"></script>
+  <script src="../js/visualization.js"></script>
+
+
+</body>
+</html>
