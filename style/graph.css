@@ -7,6 +7,13 @@
   font-family: "Courier New", Courier, monospace;
 }
 
+#graph{
+
+  word-wrap: break-word;
+  width: 300px;
+  text-align: center;
+}
+
 .node{
   border: 2px solid black;
   height: 100px;
@@ -106,7 +113,7 @@ body {
   border-radius: 3px;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   opacity: 0.9;
 }
 .wrapper {
